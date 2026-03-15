@@ -1,0 +1,362 @@
+ /* Custom CSS for Hero Section */
+ .hero {
+     background: url('../images/hero-background.jpg') no-repeat center center/cover;
+     min-height: 100vh;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     text-align: center;
+ }
+
+ .hero-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.8);
+ }
+
+ .hero-content {
+     position: relative;
+     z-index: 2;
+ }
+
+ .hero p {
+     margin-top: 1rem;
+     max-width: 90%;
+     margin: auto;
+ }
+
+ .btn-custom {
+     background-color: #007bff;
+     color: #fff;
+     font-size: 1.1rem;
+     padding: 0.75rem 1.5rem;
+     border-radius: 30px;
+     margin-top: 1rem;
+     border: none;
+ }
+
+ .btn-custom:hover {
+     background-color: #0056b3;
+ }
+
+ .navbar {
+     background-color: #004080;
+ }
+
+ .navbar-brand {
+     color: #fff !important;
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+
+ .navbar-nav .nav-link {
+     color: #fff !important;
+     margin-right: 1rem;
+ }
+
+ .navbar-nav .nav-link:hover {
+     color: #d9d9d9 !important;
+ }
+
+ .navbar-toggler {
+     border-color: #fff;
+ }
+
+ /* Counter Section Styles */
+ .counter-section {
+     padding: 3rem 0;
+     background-color: #f8f9fa;
+     text-align: center;
+ }
+
+ .counter {
+     font-size: 3rem;
+     font-weight: 700;
+     color: #007bff;
+ }
+
+ .counter-text {
+     font-size: 1.25rem;
+     font-weight: 500;
+     color: #333;
+ }
+
+ /* Service Section Styling */
+ .services-section {
+     background-color: #f8f9fa;
+ }
+
+ .services-section h2 {
+     color: #004080;
+     font-weight: bold;
+ }
+
+ /* Card Styling */
+ .service-card {
+     border: none;
+     border-radius: 10px;
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+
+ .service-card img,
+ .community-section img,
+ .advantage-card img {
+     width: 80px;
+ }
+
+ .service-card h4 {
+     color: #007bff;
+     font-weight: bold;
+ }
+
+ .service-card p {
+     color: #333;
+     font-size: 1rem;
+ }
+
+ .service-card:hover,
+ .community-section:ho {
+     transform: translateY(-10px);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ .advantages-section {
+     background-color: #eef1f7;
+ }
+
+ h2 {
+     color: #004080;
+     font-weight: bold;
+ }
+
+ .advantage-card {
+     border: none;
+     border-radius: 10px;
+     transition: transform 0.3s, box-shadow 0.3s;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 100%;
+     height: 250px;
+ }
+
+
+ .advantage-card h4 {
+     color: #007bff;
+     font-weight: bold;
+ }
+
+ .advantage-card p {
+     color: #333;
+     font-size: 1rem;
+ }
+
+ .advantage-card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+ }
+
+ footer {
+     background-color: #004080;
+     color: white;
+ }
+
+ footer a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .no-fouc {
+     display: none;
+ }
+
+ .quotes {
+     margin: 24px auto;
+ }
+
+ .white-back {
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     background: #004080;
+ }
+
+ .simple blockquote p {
+     border-top: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     color: #1e528e;
+     padding: 25px;
+     font-size: 1.25em;
+     font-style: italic;
+     text-align: center;
+ }
+
+ .simple cite {
+     font-size: 1em;
+     float: right;
+     font-style: normal;
+     color: #1e528e;
+ }
+
+ .simple cite a {
+     color: #2d91c2;
+     font-style: italic;
+     text-decoration: none;
+     font-size: 0.85em;
+ }
+
+ .simple cite a:hover {
+     color: #00b4cc;
+ }
+
+
+ /* Bubble Slider */
+ .bubble blockquote {
+     margin: 10px 10px 0;
+     background: #004080;
+     padding: 60px;
+     position: relative;
+     border: none;
+     border-radius: 8px;
+     font-size: 1.25em;
+     color: #fff;
+ }
+
+ .bubble blockquote:before,
+ .bubble blockquote:after {
+     content: "\201C";
+     position: absolute;
+     font-size: 80px;
+     padding: 10px;
+     line-height: 1;
+     color: #fff;
+ }
+
+ .bubble blockquote:before {
+     top: 0;
+     left: 10px;
+     color: #004080;
+ }
+
+ .bubble blockquote:after {
+     content: "\201D";
+     right: 10px;
+     bottom: -0.5em;
+ }
+
+ .bubble div {
+     width: 0;
+     height: 0;
+     border-left: 0 solid transparent;
+     border-right: 20px solid transparent;
+     border-top: 20px solid #373737;
+     margin: 0 0 0 60px;
+     margin-bottom: 10px;
+ }
+
+ .bubble cite {
+     padding-left: 20px;
+     font-size: 1.25em;
+     color: #004080;
+ }
+
+ .partners-section img {
+     transition: all 0.3s linear;
+     border-radius: 8px;
+ }
+
+ .partners-section img:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+ }
+
+ .warehouses a {
+     color: #004080;
+ }
+
+ .warehouses .web-scroll {
+     transition: all 0.3s linear;
+ }
+
+ .web-scroll:hover {
+     transform: translateY(-10px);
+ }
+
+ iconify-icon {
+     color: #004080;
+     transition: all 0.3s linear;
+ }
+
+
+ .contact-details li {
+     transition: all 0.3s linear;
+     border: 1px solid #004080;
+     border-radius: 50%;
+ }
+
+ .contact-details li:hover {
+     background-color: #004080;
+ }
+
+ .contact-details li:hover iconify-icon {
+     color: white;
+ }
+
+ .contact-details a {
+     color: #004080;
+ }
+
+
+ /* Media query for tablets (768px - 1024px) */
+ @media (min-width: 768px) and (max-width: 1024px) {
+     .hero {
+         padding: 100px 20px;
+         text-align: center;
+     }
+
+     .hero h1 {
+         font-size: 2.5rem;
+         /* Adjust font size */
+     }
+
+     .hero p {
+         font-size: 1rem;
+         /* Adjust font size */
+     }
+
+     .hero-content {
+         padding: 0 15px;
+     }
+
+     /* Counter section: Align counters properly for tablets */
+     .counter-section .counter {
+         font-size: 3rem;
+     }
+
+     .counter-section .counter-text {
+         font-size: 1rem;
+     }
+
+     /* Adjust card layout for better spacing on tablet screens */
+     .services-section .service-card,
+     .advantages-section .advantage-card {
+         margin-bottom: 20px;
+         /* Add space between cards */
+     }
+
+     /* Footer adjustments for better readability on tablet */
+     footer h5 {
+         font-size: 1.25rem;
+     }
+
+     footer a {
+         font-size: 1rem;
+     }
+
+     footer p {
+         font-size: 0.9rem;
+     }
+ }
